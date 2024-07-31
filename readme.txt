@@ -1,5 +1,5 @@
 === Bulk Price Updater ===
-Contributors: Abdelghafour
+Contributors: unbre4kab1e
 FL link: https://www.freelancer.com/u/unbre4kab1esl
 Tags: woocommerce, bulk update, price, product management
 Requires at least: 5.0
