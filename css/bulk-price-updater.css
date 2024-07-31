@@ -1,1 +1,77 @@
+.wrap_price_updater {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.wrap_price_updater h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.wrap_price_updater form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.wrap_price_updater form input[type="number"],
+.wrap_price_updater form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.wrap_price_updater form input[type="submit"] {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wrap_price_updater form input[type="submit"]:hover {
+    background: #005177;
+}
+
+.wrap_price_updater .updated,
+.wrap_price_updater .error {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.wrap_price_updater .updated {
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+.wrap_price_updater .error {
+    background: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
+.wrap_price_updater #product-list {
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.wrap_price_updater #product-list input[type="checkbox"] {
+    margin-right: 10px;
+}
